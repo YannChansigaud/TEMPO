@@ -6,15 +6,21 @@
 # Datatypes (KEYWORD1)
 ###########################################
 
-TEMPO		KEYWORD1
+TEMPO	KEYWORD1
 
 ###########################################
 # Methods and Functions (KEYWORD2)
 ###########################################
-set			KEYWORD2
-ready		KEYWORD2
-restart		KEYWORD2
-setmode     KEYWORD2
-AUTOLOOP    KEYWORD2
-TIMEOUT     KEYWORD2
-ack			KEYWORD2
+set	KEYWORD2
+ack	KEYWORD2
+vars	KEYWORD2
+restart	KEYWORD2
+setmode	KEYWORD2
+ack	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+AUTOLOOP	LITERAL1
+TIMEOUT	LITERAL1
